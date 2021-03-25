@@ -1,0 +1,33 @@
+PODS:
+  - AMapFoundation-NO-IDFA (1.6.5.1)
+  - AMapLocation-NO-IDFA (2.6.7):
+    - AMapFoundation-NO-IDFA (~> 1.6.4)
+  - Flutter (1.0.0)
+  - flutter_amap (0.0.1):
+    - AMapLocation-NO-IDFA
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - flutter_amap (from `.symlinks/plugins/flutter_amap/ios`)
+
+SPEC REPOS:
+  trunk:
+    - AMapFoundation-NO-IDFA
+    - AMapLocation-NO-IDFA
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  flutter_amap:
+    :path: ".symlinks/plugins/flutter_amap/ios"
+
+SPEC CHECKSUMS:
+  AMapFoundation-NO-IDFA: 0cf5f6c6de2725bcd868ed5aa756d12bc1a8f463
+  AMapLocation-NO-IDFA: 2a3edfee336b38481b892e1ecc85df0f6b365851
+  Flutter: 434fef37c0980e73bb6479ef766c45957d4b510c
+  flutter_amap: 326e5662058d960e0fc93f635cc074a0ffdf63d3
+
+PODFILE CHECKSUM: 8e679eca47255a8ca8067c4c67aab20e64cb974d
+
+COCOAPODS: 1.10.1

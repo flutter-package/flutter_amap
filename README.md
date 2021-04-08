@@ -14,6 +14,14 @@ http://lbs.amap.com/api/ios-sdk/guide/create-project/get-key
 
 直接在dart文件中设置key
 
+# yaml
+```yaml
+flutter_amap:
+  git:
+    url: https://github.com/flutter-package/flutter_amap.git
+    ref: master
+```
+
 # ios
 2、在info.plist中增加:
 ```
